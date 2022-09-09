@@ -10,3 +10,4 @@ task8- Write a program that prints all the numbers of base 16 in lowercase, foll
 task9- Write a program that prints all possible combinations of single-digit numbers.
 task10- Write a program that prints all possible different combinations of two digits
 task11- Write a program that prints all possible different combinations of three digits.
+task12- Write a program that prints all possible combinations of two two-digit numbers.
