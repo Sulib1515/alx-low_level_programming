@@ -9,13 +9,16 @@
 int main(void)
 
 {
-	int ch;
+	int low;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-	for (ch = 'A'; ch <= 'Z'; ch++)
-		putchar(ch);
+	for (low = 'a'; low <= 'z'; low++)
+	{
+		putchar(low);
+	}
+	for lowh = 'A'; low <= 'Z'; low++)
+	{
+		putchar(low);
+	}
 	putchat(\n);
-	
 	return (0);
 }
