@@ -11,10 +11,9 @@ void _puts(char *str)
 {
 	int put;
 
-	while (str[put] != '\0')
+	for (put = 0; str[put] != '\0'; put++)
 	{
 		_putchar(str[put]);
-		put++;
 	}
 
 	_putchar('\n');
