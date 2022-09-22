@@ -13,3 +13,9 @@ Task5- Write a function that changes all lowercase letters of a string to upperc
 Task6- Write a function that capitalizes all words of a string.
 
 Task7- Write a function that encodes a string into 1337.
+
+Task8- Write a function that encodes a string using rot13.
+
+Task9- Write a function that prints an integer.
+
+Task10- Add one line to this code, so that the program prints a[2] = 98, followed by a new line.
