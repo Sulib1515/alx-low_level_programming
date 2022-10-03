@@ -39,5 +39,5 @@ char *_strdup(char *str)
 		return (start);
 	}
 	else
-		return (NUL);
+		return (NULL);
 }
