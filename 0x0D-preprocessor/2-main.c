@@ -7,6 +7,6 @@
 
 int main(void)
 {
-	print("%s\n", __SIZE__);
+	printf("%s\n", __SIZE__);
 	return(0);
 }
