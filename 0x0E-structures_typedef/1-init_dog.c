@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include "dog.h"
 
@@ -8,12 +7,12 @@
  * @name: name to initialize
  * @age: age to initialize
  * @owner: owner to initialize
+ * Return: Nothing.
  */
-
-void init_dog(struct dog *d, char *name, float age, char *owner)
+oid init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d == NULL)
-		d = malloc(sizeof(struct dog));
+		return;
 
 	d->name = name;
 	d->age = age;
