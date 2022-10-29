@@ -9,11 +9,8 @@
 
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned long int max = 0x01;
-
-	max <<= index;
-	if (max == 0)
+	if (index > 53 || !n)
 		return (-1);
-	*n |= max;
+	(*n |= 1 << index);
 	return (1);
 }
