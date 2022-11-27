@@ -1,11 +1,9 @@
-Task0- Define a new type struct dog with the following elements:
+Task 0- dog.h is a header file containing a new type "struct dog".
 
-Task1- Write a function that initialize a variable of type struct dog
+Task 1-init_dog.c a function that initialize a variable of type struct dog.
 
-Task2- Write a function that prints a struct dog
+Task 2-print_dog.c is a function that prints a struct dog.
 
-Task3- Define a new type dog_t as a new name for the type struct dog.
+Task 4-new_dog.c is a function that creates a new dog.
 
-Task4- Write a function that creates a new dog.
-
-Task5- Write a function that frees dogs.
+Task 5-free_dog.c is a function that frees dogs.
